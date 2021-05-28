@@ -5,3 +5,9 @@ export type ServiceProps = {
     about: string
     Icon: IconType
 }
+
+export type SkillProps = {
+    name: string
+    level: string
+    Icon: IconType
+}

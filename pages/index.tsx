@@ -1,5 +1,5 @@
 import { GetServerSidePropsContext, GetStaticPropsContext } from 'next'
-import services from '../data'
+import {services, languages, tools } from '../data'
 import { ServiceCard } from '../src/components/ServiceCard'
 
 const index = () => {
@@ -13,7 +13,7 @@ const index = () => {
             services.map(service => {
               return (
                 <div className="bg-gray-200 rounded-lg lg:col-span-1">
-                  <ServiceCard service={service} />
+                  <ServiceCard service={service}  />
                 </div>
               )
             })
