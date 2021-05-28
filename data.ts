@@ -1,27 +1,24 @@
 import { ServiceProps, SkillProps } from './types'
 import { RiComputerLine } from 'react-icons/ri'
 import { BsCircleFill } from 'react-icons/bs'
+import { FaServer } from "react-icons/fa"
+import { AiOutlineApi } from "react-icons/ai"
 
 export const services:ServiceProps[]  = [
     {
         title: 'Desenvolvedor Frontend',
-        about: 'loren...',
+        about: 'Posso construir um SPA bonito e escalável usando HTML e React.js ',
         Icon: RiComputerLine,
     },
     {
-        title: 'Desenvolvedor Frontend',
-        about: 'loren...',
-        Icon: RiComputerLine,
+        title: 'Desenvolvedor Backend',
+        about: 'Posso trabalhar com banco de dados, servidor, API usando Express outras estruturas populares ',
+        Icon: FaServer,
     },
     {
-        title: 'Desenvolvedor Frontend',
-        about: 'loren...',
-        Icon: RiComputerLine,
-    },
-    {
-        title: 'Desenvolvedor Frontend',
-        about: 'loren...',
-        Icon: RiComputerLine,
+        title: 'Desenvolvimento de Api',
+        about: 'Posso desenvolver uma API REST robusta usando a API Node ',
+        Icon: AiOutlineApi,
     }
 ]
 
