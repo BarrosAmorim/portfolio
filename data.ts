@@ -1,4 +1,4 @@
-import { ServiceProps, SkillProps } from './types'
+import { ServiceProps, SkillProps, ProjectProps } from './types'
 import { RiComputerLine } from 'react-icons/ri'
 import { BsCircleFill } from 'react-icons/bs'
 import { FaServer } from "react-icons/fa"
@@ -45,6 +45,63 @@ export const tools: SkillProps[] = [
         name: 'Figma',
         level: '60%',
         Icon: BsCircleFill
+    }
+]
+
+export const projects: ProjectProps[] = [
+    {
+        name: 'My Trips',
+        description: 'Um site simples para mostrar os lugares fixados que você visitou ou deseja ir',
+        image_path: '/img/my-trips.png',
+        deployed_url: 'https://my-trips-rho.vercel.app/',
+        github_url: 'https://github.com/BarrosAmorim/my-trips',
+        category: ['React',],
+        key_techs: ['Next.JS', 'GraphCMS', 'Styled Components',]
+    },
+    {
+        name: 'My Trips',
+        description: 'Um site simples para mostrar os lugares fixados que você visitou ou deseja ir',
+        image_path: '/img/my-trips.png',
+        deployed_url: 'https://my-trips-rho.vercel.app/',
+        github_url: 'https://github.com/BarrosAmorim/my-trips',
+        category: ['React',],
+        key_techs: ['Next.JS', 'GraphCMS', 'Styled Components',]
+    },
+    {
+        name: 'My Trips',
+        description: 'Um site simples para mostrar os lugares fixados que você visitou ou deseja ir',
+        image_path: '/img/my-trips.png',
+        deployed_url: 'https://my-trips-rho.vercel.app/',
+        github_url: 'https://github.com/BarrosAmorim/my-trips',
+        category: ['React',],
+        key_techs: ['Next.JS', 'GraphCMS', 'Styled Components',]
+    },
+    {
+        name: 'My Trips',
+        description: 'Um site simples para mostrar os lugares fixados que você visitou ou deseja ir',
+        image_path: '/img/my-trips.png',
+        deployed_url: 'https://my-trips-rho.vercel.app/',
+        github_url: 'https://github.com/BarrosAmorim/my-trips',
+        category: ['React',],
+        key_techs: ['Next.JS', 'GraphCMS', 'Styled Components',]
+    },
+    {
+        name: 'My Trips',
+        description: 'Um site simples para mostrar os lugares fixados que você visitou ou deseja ir',
+        image_path: '/img/my-trips.png',
+        deployed_url: 'https://my-trips-rho.vercel.app/',
+        github_url: 'https://github.com/BarrosAmorim/my-trips',
+        category: ['React',],
+        key_techs: ['Next.JS', 'GraphCMS', 'Styled Components',]
+    },
+    {
+        name: 'My Trips',
+        description: 'Um site simples para mostrar os lugares fixados que você visitou ou deseja ir',
+        image_path: '/img/my-trips.png',
+        deployed_url: 'https://my-trips-rho.vercel.app/',
+        github_url: 'https://github.com/BarrosAmorim/my-trips',
+        category: ['React',],
+        key_techs: ['Next.JS', 'GraphCMS', 'Styled Components',]
     }
 ]
 
