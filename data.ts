@@ -64,7 +64,7 @@ export const projects: ProjectProps[] = [
         image_path: '/img/my-trips.png',
         deployed_url: 'https://my-trips-rho.vercel.app/',
         github_url: 'https://github.com/BarrosAmorim/my-trips',
-        category: ['React',],
+        category: ['Node',],
         key_techs: ['Next.JS', 'GraphCMS', 'Styled Components',]
     },
     {
@@ -73,7 +73,7 @@ export const projects: ProjectProps[] = [
         image_path: '/img/my-trips.png',
         deployed_url: 'https://my-trips-rho.vercel.app/',
         github_url: 'https://github.com/BarrosAmorim/my-trips',
-        category: ['React',],
+        category: ['Next.Js',],
         key_techs: ['Next.JS', 'GraphCMS', 'Styled Components',]
     },
     {
