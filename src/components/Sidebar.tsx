@@ -3,6 +3,8 @@ import { GoLocation } from 'react-icons/go'
 import { VscCode } from 'react-icons/vsc'
 import { useTheme } from 'next-themes'
 
+import Image from 'next/image'
+
 
 const Sidebar = () => {
     const { theme, setTheme } = useTheme()
@@ -13,10 +15,13 @@ const Sidebar = () => {
 
     return (
         <div>
-            <img
+            <Image
                 src="https://avatars.githubusercontent.com/u/24548784?v=4"
                 alt="user avatar"
-                className="w-32 h-32 mx-auto rounded-full"
+                className="mx-auto border rounded-full"
+                height="128px"
+                width="128px"
+                layout="intrinsic"
             />
             <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan dark:bg-dark-500">
                 <span className="text-green">Rafael </span>

@@ -1,26 +1,28 @@
 import { GetServerSidePropsContext, GetStaticPropsContext } from 'next'
-import {services, languages, tools } from '../data'
+import {services } from '../data'
 import { ServiceCard } from '../src/components/ServiceCard'
+import { motion } from 'framer-motion'
+import { fadeInUp, routerAnimation, stagger } from '../animations'
 
 const index = () => {
   return (
-    <div className="flex flex-col flex-grow px-6 pt-1">
+    <motion.div variants={routerAnimation} initial="initial" animate="animate" exit="exit" className="flex flex-col flex-grow px-6 pt-1">
       <h5 className="my-3 font-medium">Apaixonado por tecnologia, sempre em busca de conhecimento!</h5>
       <div className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100" style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem"}}>
         <h6 className="my-3 text-xl font-bold tracking-wider">O que eu ofereço</h6>
-        <div className="grid gap-6 lg:grid-cols-2">
+        <motion.div className="grid gap-6 my-3 lg:grid-cols-2" variants={stagger} initial="initial" animate="animate">
           {
-            services.map((service, index) => {
+            services.map((service) => {
               return (
-                <div key={index} className="bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1">
+                <motion.div variants={fadeInUp} key={service.title} className="bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1">
                   <ServiceCard service={service}  />
-                </div>
+                </motion.div>
               )
             })
           }
-        </div>
+        </motion.div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
