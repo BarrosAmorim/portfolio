@@ -57,51 +57,7 @@ export const projects: ProjectProps[] = [
         github_url: 'https://github.com/BarrosAmorim/my-trips',
         category: ['React',],
         key_techs: ['Next.JS', 'GraphCMS', 'Styled Components',]
-    },
-    {
-        name: 'My Trips',
-        description: 'Um site simples para mostrar os lugares fixados que você visitou ou deseja ir',
-        image_path: '/img/my-trips.png',
-        deployed_url: 'https://my-trips-rho.vercel.app/',
-        github_url: 'https://github.com/BarrosAmorim/my-trips',
-        category: ['Node',],
-        key_techs: ['Next.JS', 'GraphCMS', 'Styled Components',]
-    },
-    {
-        name: 'My Trips',
-        description: 'Um site simples para mostrar os lugares fixados que você visitou ou deseja ir',
-        image_path: '/img/my-trips.png',
-        deployed_url: 'https://my-trips-rho.vercel.app/',
-        github_url: 'https://github.com/BarrosAmorim/my-trips',
-        category: ['Next.Js',],
-        key_techs: ['Next.JS', 'GraphCMS', 'Styled Components',]
-    },
-    {
-        name: 'My Trips',
-        description: 'Um site simples para mostrar os lugares fixados que você visitou ou deseja ir',
-        image_path: '/img/my-trips.png',
-        deployed_url: 'https://my-trips-rho.vercel.app/',
-        github_url: 'https://github.com/BarrosAmorim/my-trips',
-        category: ['React',],
-        key_techs: ['Next.JS', 'GraphCMS', 'Styled Components',]
-    },
-    {
-        name: 'My Trips',
-        description: 'Um site simples para mostrar os lugares fixados que você visitou ou deseja ir',
-        image_path: '/img/my-trips.png',
-        deployed_url: 'https://my-trips-rho.vercel.app/',
-        github_url: 'https://github.com/BarrosAmorim/my-trips',
-        category: ['React',],
-        key_techs: ['Next.JS', 'GraphCMS', 'Styled Components',]
-    },
-    {
-        name: 'My Trips',
-        description: 'Um site simples para mostrar os lugares fixados que você visitou ou deseja ir',
-        image_path: '/img/my-trips.png',
-        deployed_url: 'https://my-trips-rho.vercel.app/',
-        github_url: 'https://github.com/BarrosAmorim/my-trips',
-        category: ['React',],
-        key_techs: ['Next.JS', 'GraphCMS', 'Styled Components',]
     }
+    
 ]
 
