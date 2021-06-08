@@ -57,6 +57,15 @@ export const projects: ProjectProps[] = [
         github_url: 'https://github.com/BarrosAmorim/my-trips',
         category: ['Next.Js',],
         key_techs: ['Next.Js', 'GraphCMS', 'Styled Components',]
+    },
+    {
+        name: 'World Ranking',
+        description: 'Este é um projeto construído com NextJs. Neste projeto, os detalhes dos países estão sendo obtidos de uma API',
+        image_path: '/img/worls-ranks.png',
+        deployed_url: 'https://world-ranks-eight.vercel.app/',
+        github_url: 'https://github.com/BarrosAmorim/world-ranks',
+        category: ['Next.Js',],
+        key_techs: ['Next.Js']
     }
     
 ]
